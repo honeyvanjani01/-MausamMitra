@@ -8,7 +8,7 @@
    ============================================================================= */
 
 // ---------------------------------------------------------------- state
-const DEFAULT_API_BASE = "http://localhost:8000";
+const DEFAULT_API_BASE = "https://mausammitra-backend.onrender.com";
 let apiBase = localStorage.getItem("wgpt_api_base") || DEFAULT_API_BASE;
 let language = localStorage.getItem("wgpt_lang") || "en";
 let sessionId = "web-" + Math.random().toString(36).slice(2, 10);
